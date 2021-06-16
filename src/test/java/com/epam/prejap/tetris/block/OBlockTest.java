@@ -5,11 +5,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-/**
- * @author Anna Silenko
- */
-
-@Test(groups = {"blockShapes", "blocks"})
+@Test(groups = "blockShapes")
 public class OBlockTest {
     OBlock oBlock = new OBlock();
 
